@@ -69,6 +69,7 @@ model_ft = models.resnet34(weights = ResNet34_Weights.DEFAULT)#resnet50
 #model_ft = models.vit_b_16(weights=models.ViT_B_16_Weights.DEFAULT)#vit
 #model_ft = models.vgg16(weights=models.VGG16_Weights.DEFAULT)#vgg16
 
+#ここ編集したよ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 
 # layers = []
 # layers.extend(list(model_ft.children())[0:5])
